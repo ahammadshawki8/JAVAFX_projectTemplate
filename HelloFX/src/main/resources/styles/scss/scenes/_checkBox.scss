@@ -1,0 +1,5 @@
+@use "../config/variables";
+
+#myCheckBox {
+  -fx-text-fill: variables.$light-color;
+}

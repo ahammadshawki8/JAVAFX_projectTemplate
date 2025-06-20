@@ -1,0 +1,11 @@
+@use "../config/variables";
+
+#titleLevel {
+  -fx-font-size: 60px;
+  -fx-text-fill: variables.$light-color;
+}
+
+#textLevel {
+  -fx-font-size: 30px;
+  -fx-text-fill: variables.$danger-color;
+}

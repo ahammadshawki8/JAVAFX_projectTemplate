@@ -1,0 +1,9 @@
+@use '../config/variables';
+
+#pageLabel {
+  -fx-text-fill: variables.$light-color;
+}
+
+#nameLabel {
+  -fx-text-fill: variables.$primary-color;
+}

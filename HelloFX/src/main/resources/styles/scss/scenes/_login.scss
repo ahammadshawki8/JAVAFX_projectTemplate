@@ -1,0 +1,9 @@
+@use '../config/variables';
+
+#pageTitle {
+  -fx-text-fill: variables.$light-color;
+}
+
+#fieldTitle {
+  -fx-text-fill: variables.$warning-color;
+}

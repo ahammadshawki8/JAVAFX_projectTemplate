@@ -1,0 +1,41 @@
+.root {
+  -fx-font-family: "Lucida Console";
+  -fx-background-color: #2d3436;
+  -fx-text-fill: #f5f6fa;
+}
+
+.Label {
+  -fx-alignment: center;
+  -fx-text-alignment: center;
+  -fx-text-fill: #f1c40f;
+}
+
+#titleLevel {
+  -fx-font-size: 60px;
+  -fx-text-fill: #f5f6fa;
+}
+
+#textLevel {
+  -fx-font-size: 30px;
+  -fx-text-fill: #e74c3c;
+}
+
+#pageTitle {
+  -fx-text-fill: #f5f6fa;
+}
+
+#fieldTitle {
+  -fx-text-fill: #f1c40f;
+}
+
+#pageLabel {
+  -fx-text-fill: #f5f6fa;
+}
+
+#nameLabel {
+  -fx-text-fill: #4e9af1;
+}
+
+#myCheckBox {
+  -fx-text-fill: #f5f6fa;
+}
