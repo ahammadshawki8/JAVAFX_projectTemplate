@@ -11,4 +11,9 @@ public class GlobalState {
     public static final String USER_PROFILE_FILE = "userProfile";
     public static final String IMAGE_VIEW_FILE = "imageView";
     public static final String CHECK_BOX_FILE = "checkBox";
+    public static final String RADIO_BUTTON_FILE = "radioButton";
+    public static final String HELLO_WORLD_FILE = "helloWorld";
+    public static final String DATE_PICKER_FILE = "datePicker";
+    public static final String LIST_VIEW_FILE = "listView";
+    public static final String FLOW_PANE_FILE = "flowPane";
 }

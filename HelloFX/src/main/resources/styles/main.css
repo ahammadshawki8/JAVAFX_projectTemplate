@@ -1,7 +1,5 @@
 .root {
   -fx-font-family: "Lucida Console";
-  -fx-background-color: #2d3436;
-  -fx-text-fill: #f5f6fa;
 }
 
 .Label {
@@ -37,5 +35,17 @@
 }
 
 #myCheckBox {
+  -fx-text-fill: #f5f6fa;
+}
+
+#title {
+  -fx-text-fill: #f5f6fa;
+}
+
+#subTitle {
+  -fx-text-fill: #4e9af1;
+}
+
+#rButton1, #rButton2, #rButton3 {
   -fx-text-fill: #f5f6fa;
 }

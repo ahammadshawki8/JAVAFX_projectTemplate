@@ -15,7 +15,6 @@ public class SceneController {
         this.stage = primaryStage;
     }
 
-    // Modified to accept controller too
     public void addScene(String name, Parent root, Object controller) {
         Scene scene = new Scene(root);
 

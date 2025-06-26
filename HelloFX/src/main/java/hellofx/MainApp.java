@@ -18,6 +18,11 @@ import controller.LoginController;
 import controller.UserProfileController;
 import controller.ImageViewController;
 import controller.CheckBoxController;
+import controller.RadioButtonController;
+import controller.HelloWorldController;
+import controller.DatePickerController;
+import controller.ListViewController;
+import controller.FlowPaneController;
 
 
 
@@ -69,6 +74,11 @@ public class MainApp extends Application {
         initController(GlobalState.USER_PROFILE_FILE, UserProfileController.class, sceneController);
         initController(GlobalState.IMAGE_VIEW_FILE, ImageViewController.class, sceneController);
         initController(GlobalState.CHECK_BOX_FILE, CheckBoxController.class, sceneController);
+        initController(GlobalState.RADIO_BUTTON_FILE, RadioButtonController.class, sceneController);
+        initController(GlobalState.HELLO_WORLD_FILE, HelloWorldController.class, sceneController);
+        initController(GlobalState.DATE_PICKER_FILE, DatePickerController.class, sceneController);
+        initController(GlobalState.LIST_VIEW_FILE, ListViewController.class, sceneController);
+        initController(GlobalState.FLOW_PANE_FILE, FlowPaneController.class, sceneController);
 
 
 
@@ -76,7 +86,7 @@ public class MainApp extends Application {
 
 
         // CHOOSE THE INITIAL SCENE
-        sceneController.switchTo(GlobalState.CHECK_BOX_FILE);
+        sceneController.switchTo(GlobalState.FLOW_PANE_FILE);
 
         // SETUP THE STAGE
         URL iconURL = getClass().getResource("/images/brand.png");

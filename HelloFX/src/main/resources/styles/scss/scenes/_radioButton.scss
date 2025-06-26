@@ -1,10 +1,13 @@
 @use '../config/variables';
 
-#pageLabel {
+#title {
   -fx-text-fill: variables.$light-color;
 }
 
-#nameLabel {
+#subTitle {
   -fx-text-fill: variables.$primary-color;
 }
 
+#rButton1, #rButton2, #rButton3 {
+  -fx-text-fill: variables.$light-color;
+}

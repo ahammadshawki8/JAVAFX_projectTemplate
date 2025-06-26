@@ -26,7 +26,7 @@ public class UserProfileController extends BaseController{
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle("Logout");
         alert.setHeaderText("You are about to log out");
-        alert.setContentText("Do you want to save before exiting?");
+        alert.setContentText("Do you want to save bfore exiting?");
         if (alert.showAndWait().get() == ButtonType.OK) {
             LoginController loginController = (LoginController) sceneController.switchTo(GlobalState.LOGIN_FILE);
             loginController.resetTextField();
