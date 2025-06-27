@@ -16,4 +16,5 @@ public class GlobalState {
     public static final String DATE_PICKER_FILE = "datePicker";
     public static final String LIST_VIEW_FILE = "listView";
     public static final String FLOW_PANE_FILE = "flowPane";
+    public static final String ANIMATION_FILE = "animation";
 }

@@ -23,6 +23,7 @@ import controller.HelloWorldController;
 import controller.DatePickerController;
 import controller.ListViewController;
 import controller.FlowPaneController;
+import controller.AnimationController;
 
 
 
@@ -79,6 +80,7 @@ public class MainApp extends Application {
         initController(GlobalState.DATE_PICKER_FILE, DatePickerController.class, sceneController);
         initController(GlobalState.LIST_VIEW_FILE, ListViewController.class, sceneController);
         initController(GlobalState.FLOW_PANE_FILE, FlowPaneController.class, sceneController);
+        initController(GlobalState.ANIMATION_FILE, AnimationController.class, sceneController);
 
 
 
@@ -86,7 +88,7 @@ public class MainApp extends Application {
 
 
         // CHOOSE THE INITIAL SCENE
-        sceneController.switchTo(GlobalState.FLOW_PANE_FILE);
+        sceneController.switchTo(GlobalState.ANIMATION_FILE);
 
         // SETUP THE STAGE
         URL iconURL = getClass().getResource("/images/brand.png");

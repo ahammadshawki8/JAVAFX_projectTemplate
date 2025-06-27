@@ -8,7 +8,7 @@ public abstract class BaseController {
     protected SceneController sceneController;
     public void setSceneController(SceneController controller) {
         this.sceneController = controller;
-    }
+    } // Called in the MainApp
 
     // ADD MENUBAR NAVIGATION METHODS AND LOGICS HERE
     public void moveToEventHandling() {
